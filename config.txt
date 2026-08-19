@@ -1,0 +1,28 @@
+# SFS Visual FX configuration
+# Keep this file next to the mod dll. Restart the game after editing.
+# Format: key = value
+
+# Quality presets
+# auto   : high on PC, low on mobile
+# low    : 14 puffs / 4 rings / 12 segments
+# medium : 26 puffs / 8 rings / 18 segments
+# high   : 40 puffs / 12 rings / 26 segments
+quality = auto
+
+# Global intensity (0.5 = half, 2.0 = double)
+intensity = 1.0
+
+# Effect toggles
+launch_smoke = true    # launch smoke
+reverse_dust = true    # reverse thrust dust
+landing_impact = true  # landing impact shockwave
+
+# Atmospheric drag (higher = particles slow down faster)
+smoke_drag = 6
+steam_drag = 5
+dust_drag = 7
+
+# Optional surface dust color overrides (r,g,b)
+#soil_color = 0.52,0.38,0.22
+#rock_color = 0.48,0.48,0.50
+#ice_color = 0.82,0.88,0.98
